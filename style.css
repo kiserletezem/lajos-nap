@@ -1,0 +1,104 @@
+﻿/*Háttér*/
+body{
+	background-image: url("hatter.png");
+}
+
+#atlatszo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*Fejléc*/
+#cimer{
+	max-width: 20%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 2%;
+}
+
+#ido{
+	float: left;
+	clear: left;
+	margin-left: 4%;
+	font-size: 6vw;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 2%;
+}
+
+/*Összes*/
+#cim{
+	margin-top: 3%;
+	margin-bottom:2%;
+	font-size: 5vw;
+	text-align: center;
+}
+
+#teljes{
+	width: 100%;
+	overflow: auto;
+	height: 55%;
+}
+
+.alcim{
+	text-align: center;
+	font-size: 6vw;
+	position: sticky;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#összes{
+	width: 80%;
+	border: 3px solid black;
+	margin: auto;
+	background-color: rgb(200, 200, 200);
+}	
+
+#összes p{
+	padding: 5px 3px;
+	font-size: 5vw;
+}
+
+#összes p:hover{
+	color: red;
+}
+
+/*Aktuális*/
+#cim1{
+	margin-bottom: 2%;
+	font-size: 5vw;
+	margin-left: 27%;
+}
+
+#aktualis{
+	width: 60%;
+	overflow: auto;
+	height: 25%;
+	margin-left: 25%;
+}
+
+#tartalom{
+	margin: 0;
+	width: 95%;
+	border: 3px solid black;
+	margin: auto;
+	background-color: rgb(200, 200, 200);
+}
+
+#tartalom p{
+	padding: 5px 3px;
+	font-size: 4.5vw;
+}
+
+#tartalom p:hover{
+	color: red;
+}
+
+#tartalom div{
+	display: none;
+}
